@@ -36,9 +36,12 @@ const Projects = () => {
               <h4 className='text-2xl font-poppins font-semibold'>
                 {project.name}
               </h4>
+              <p className='mt-2 text-slate-700 font-semibold'>Distribution : </p>
               <p className='mt-2 text-slate-500'>{project.description}</p>
+              <p className='mt-2 text-slate-700 font-semibold'>Technology : </p>
+              <p className='mt-2 text-slate-500'>{project.des}</p>
               <div className='mt-5 flex items-center gap-2 font-poppins'>
-                <Link
+                {project.link && <> <Link
                   to={project.link}
                   target='_blank'
                   rel='noopener noreferrer'
@@ -46,11 +49,14 @@ const Projects = () => {
                 >
                   Live Link
                 </Link>
-                <img
-                  src={arrow}
-                  alt='arrow'
-                  className='w-4 h-4 object-contain'
-                />
+
+                  <img
+                    src={arrow}
+                    alt='arrow'
+                    className='w-4 h-4 object-contain'
+                  />
+                </>
+                }
               </div>
             </div>
           </div>

@@ -72,11 +72,11 @@ export const skills = [
         name: "Material-UI",
         type: "Frontend",
     },
-    // {
-    //     imageUrl: nextjs,
-    //     name: "Next.js",
-    //     type: "Frontend",
-    // },
+    {
+        imageUrl: nextjs,
+        name: "Next.js",
+        type: "Frontend",
+    },
     {
         imageUrl: nodejs,
         name: "Node.js",
@@ -185,44 +185,53 @@ export const socialLinks = [
 export const projects = [
     {
         iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'Whatsapp Clone',
-        description: 'It is mimicking the core features of WhatsApp. Imagine an app that lets you send text messages, photos, and videos, make voice and video calls, and participate in group chats that essentially a WhatsApp clone. These clones are built using similar technologies and target users who might be looking for an alternative messaging experience.',
-        link: 'https://github.com/spidy-pool',
+        theme: 'btn-back-black',
+        name: 'User-Auth',
+        des : `The website is built using Next.js, a React framework for server-side rendering. This provides better SEO and initial page load performance. JSON Web Tokens (JWT) are used for secure authentication, while Bcrypt ensures the protection of user passwords against unauthorized access.`,
+        description: 'This user authentication website is a web-based application designed to provide secure and efficient user management. Users can create accounts, log in, and reset their passwords. The website utilizes JSON Web Tokens (JWT) for session management and Bcrypt for password hashing, ensuring the protection of user credentials.',
+       link: 'https://user-auth-detail.vercel.app/login',
+    },
+    {
+        iconUrl: snapgram,
+        theme: 'btn-back-orange',
+        name: 'Voltplay',
+        des: `Our platform is built on the robust MERN (MongoDB, Express.js, React.js, Node.js) stack, ensuring a seamless and scalable experience. The frontend utilizes React.js and Material UI for a visually appealing interface, while the backend is powered by Node.js and Express.js. MongoDB stores data, and the Paytm gateway guarantees secure payments.`,
+        description: `Discover a world of innovative IoT devices on our user-friendly e-commerce platform. Browse our extensive catalog, add your favorite items to your cart, and enjoy a secure checkout process powered by Paytm. Benefit from personalized features like user accounts, order tracking, and dedicated customer support.`,
+        link: 'https://voltplay.netlify.app/',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Flipkart Clone',
-        description: 'A Flipkart clone is an e-commerce platform inspired by the popular Indian online store Flipkart. It acts like a digital marketplace, allowing buyers to browse and purchase products from various sellers.',
-        link: 'https://github.com/spidy-pool',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'A.I Assistant',
-        description: ' This involves creating a copy of an existing AI assistant, like Alexa or Siri, with similar functionalities like voice commands, information retrieval, and task automation.',
-        link: 'https://github.com/spidy-pool',
-    },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Voltplay',
-        description: 'It is essentially an online store. It allows customers to browse, select, and purchase products or services directly through the internet.  Think of it as a digital version of a physical shop, where you can add items to a virtual cart and checkout securely.  These websites are vital for businesses today, offering convenience and wider reach to customers.',
-        link: 'https://github.com/spidy-pool',
-    },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Soil Moisture Detection',
-        description: 'A soil moisture detector is a device that measures the amount of water content in the soil.  They are instrumental in precision agriculture  for optimal plant growth and water conservation.',
-        link: 'https://github.com/spidy-pool',
+        name: 'GURU AI',
+        des : `The project leverages React and Vite, two popular JavaScript frameworks. React's component-based architecture enables efficient development, while Vite's server-side rendering and bundling provide faster build times. The project also utilizes a [specify the NLP library or framework used] for natural language processing.`,
+        description: 'This AI assistant is a web-based application that provides intelligent and helpful responses to user queries. It uses natural language processing to understand and respond to user input in a natural and informative manner.',
+        link: 'https://guru-ai.netlify.app/',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'Tourist-place',
-        description: 'It is an online hub that entices travelers and provides them with information to plan their trips.  ',
-        link: 'https://github.com/spidy-pool/',
-    }
+        name: 'TEIFIC',
+        des: `Our website is crafted with a powerful blend of HTML, CSS, JavaScript, GSAP, and Locomotive Scroll. This technology stack ensures a visually stunning and highly interactive experience, providing seamless navigation and engaging animations.`,
+        description: `Discover a world of innovative IoT solutions on our cutting-edge platform. Explore our comprehensive range of products and services, learn from client success stories, and gain valuable insights into IoT trends. Connect with us to explore partnership opportunities and request a personalized demo.`,
+        link: 'https://spidy-pool.github.io/e-commerce/',
+    },
+   
+    {
+        iconUrl: car,
+        theme: 'btn-back-blue',
+        name: 'EV Charging Station',
+        des: `IoT, Embedded Systems, app development, web development`,
+        description: `We have made a plug in EV charger system where you can bring your own charger and charge your EV you doesn't need to install any app and make any wallet is the Hustle free process you can easily come pay and go admit as you want to charge so pay as you go process has been used.`,
+        // link: 'https://github.com/spidy-pool',
+    },
+ 
+    {
+        iconUrl: estate,
+        theme: 'btn-back-black',
+        name: 'Soil Moisture Detection',
+        des: `IoT, Embedded Systems, app development, web development`,
+        description: `It measures essential components and data of the plant and then applies the required care to the plant so it can nurture it at its own it has totally customisable environment creator feature it can create a customize environment for the plant to live in to make it nurture faster and in effective healthier process.`,
+        // link: 'https://github.com/spidy-pool',
+    },
+   
 ];
