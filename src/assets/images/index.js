@@ -5,6 +5,8 @@ import starbucks from './starbucks.svg'
 import tesla from './tesla.png'
 import logo from './logo.svg'
 import log from './log.png'
+import mylogo from './mylogo.jpeg'
+import home from  './pixelcut-export.png'
 
 export {
     hero,
@@ -13,5 +15,7 @@ export {
     starbucks,
     tesla,
     logo,
-    log
+    log,
+    mylogo,
+    home
 }
