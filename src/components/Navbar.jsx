@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 // import { log } from "../assets/images";
 // import { logo } from "../assets/images";
-import { mylogo , home , log , logo , resume} from "../assets/images";
+import { mylogo , home , log , logo , parvendra_resume} from "../assets/images";
 
 // import './Parvendra_web-dev.pdf'; 
 
@@ -26,7 +26,7 @@ const Navbar = () => {
           Contact
         </NavLink>
       </nav>
-      <a href={resume} download><h3 className="font-extrabold text-xl">Resume</h3></a>
+      <a href={parvendra_resume} download><h3 className="font-extrabold text-xl">Resume</h3></a>
       
     </header>
   );

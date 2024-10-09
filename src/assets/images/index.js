@@ -7,10 +7,10 @@ import logo from './logo.svg'
 import log from './log.png'
 import mylogo from './mylogo.jpeg'
 import home from  './pixelcut-export.png'
-import resume from './resume.pdf';
+import parvendra_resume from './parvendra_resume.pdf';
 
 export {
-    resume,
+    parvendra_resume,
     hero,
     meta,
     shopify,
