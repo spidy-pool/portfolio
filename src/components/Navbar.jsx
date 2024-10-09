@@ -2,9 +2,10 @@ import { NavLink } from "react-router-dom";
 
 // import { log } from "../assets/images";
 // import { logo } from "../assets/images";
-import { mylogo , home , log , logo } from "../assets/images";
+import { mylogo , home , log , logo , resume} from "../assets/images";
 
-import './Parvendra_web-dev.pdf'; 
+// import './Parvendra_web-dev.pdf'; 
+
 
 
 
@@ -25,7 +26,7 @@ const Navbar = () => {
           Contact
         </NavLink>
       </nav>
-      <a href="Parvendra_web-dev.pdf" download><h3 className="font-extrabold text-xl">Resume</h3></a>
+      <a href={resume} download><h3 className="font-extrabold text-xl">Resume</h3></a>
       
     </header>
   );
